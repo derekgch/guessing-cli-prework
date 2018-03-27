@@ -10,6 +10,9 @@
 def run_guessing_game
   loop do
   puts 'Guess a number between 1 and 6.'
+  n = get.chomp
+  r_n = rand(6)+1
+
   puts 'You guessed the correct number!'
 
   puts 'Goodbye!'
