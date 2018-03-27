@@ -16,10 +16,10 @@ def run_guessing_game
 
   if n == r_n
     puts 'You guessed the correct number!'
-  else
-    if(input == 'exit')
+  elsif(input == 'exit')
       puts 'Goodbye!'
-    end
+  else
+    puts "The computer guessed #{r_n}"
   end #if
 
   end #loop
